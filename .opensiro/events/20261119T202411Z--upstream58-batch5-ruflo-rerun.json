@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261119T202411Z--upstream58-batch5-ruflo-rerun",
+  "recorded_at": "2026-11-19T20:24:11Z",
+  "actor": "OpenSiro AI assistant (user-requested Upstream #58 five-case rerun)",
+  "kind": "RESEARCH",
+  "decision": "NO_GO",
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/ruflo/commit/8d6f98ce33fad4760904483088c179cca1de6941",
+    "https://github.com/opensiro-contributions/ruflo/blob/8d6f98ce33fad4760904483088c179cca1de6941/.opensiro/issues/feasibility-review-20261118/roadmap.md",
+    "https://github.com/opensiro/upstream/issues/58"
+  ],
+  "note": "Proposal-gate source-first rerun recorded in canonical Human/AI/Receipt. Native #3191 feasibility gate remains a first-party hypothesis pending RuV reproduction and authority boundaries. Native swarm consensus, retrospective learning and maintainer Dream Cycle do not prove an independent runtime S3*/S4 review. Research NO_USEFUL_CHANGE; native tests NOT_RUN, external publication not authorized.",
+  "next_action": "Reproduce #3191 against deterministic checks and RVM authorization before qualifying autonomous S3*."
+}
