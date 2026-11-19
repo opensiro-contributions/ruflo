@@ -1,62 +1,28 @@
-# Ruflo — feasibility review and independent corrective closure (S3* research roadmap)
+# ruvnet/ruflo — Upstream #58 independent Human decision
 
-**OpenSiro · PLAN_ONLY · NEEDS_EVIDENCE · Operator decision: NO_GO · DRAFT — NOT PUBLISHED**  
-**Source:** [ruvnet/ruflo @ edf7ddb3fefa](https://github.com/ruvnet/ruflo/commit/edf7ddb3fefa15bca87986225b5a5ef7d4d059e5) · **Human ↔ AI:** [constructor and evidence contract](https://github.com/opensiro-contributions/ruflo/blob/opensiro/meta/.opensiro/issues/feasibility-review-20261118/constructor-sufficiency.md) · [receipt](https://github.com/opensiro-contributions/ruflo/blob/opensiro/meta/.opensiro/issues/feasibility-review-20261118/roadmap.md).
+**Target transition:** NO_QUALIFIED_C_TARGET
+**Proposal-stage decision:** NO_GO
+**Research disposition:** NO_USEFUL_CHANGE
 
-## 1. Why Opensiro and central accepted VSM assessment
+[roadmap.md](roadmap.md) — canonical receipt; [constructor-sufficiency.md](constructor-sufficiency.md) — technical AI contract. Internal draft, NOT PUBLISHED.
 
-OpenSiro tests whether **standardizing AI harness development through reusable, VSM-informed, original-native capabilities** can reduce total implementation, integration and maintenance cost. This is an **unmeasured hypothesis**, not a demand that Ruflo adopts VSM or evidence of savings.
+## Accepted baseline and current source
 
-**Historical accepted starting point (not a current-HEAD grade):** [canonical Index assessment](https://github.com/opensiro/vsm-harness-index/blob/5f6ea0c777733813ca42e3f210390a719488dcfb/assessments/ru/ruflo.md) · reviewed **2026-09-17** at Ruflo `2602b642d92234c710ffbe96bfb33007d481ceab`; Profile **0.2.2**, Skills procedure **0.3.1**.
+Accepted historical [Index review](https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/ru/ruflo.md) (2026-09-17, Profile 0.2.2, Skills 0.3.1; blob `4bb0859754b58e8f994e056f11cec1cdf0d33ddd`). Original current [HEAD](https://github.com/ruvnet/ruflo/commit/d9213d356cc232eb2dc958d5cb84149abbbcbd5a) is separately pinned and not automatically reclassified.
 
-| Function | Accepted ownership | Meaning / consequence |
-| --- | --- | --- |
-| S1 — Operations | **A** | Autonomous coding/execution workers; no mandatory C work |
-| S2 — Coordination | **C** | Developer-composable dependency, isolation and worker-interference controls; no duplicate target |
-| S3 — Inside-and-now | **C** | Composable current swarm assignment/resource control; no duplicate target |
-| S3* — Independent review | **—** | Independent complementary reality access **plus corrective closure** was not established at the reviewed ref |
-| S4 — Outside-and-then | **—** | Retrospective learning did not establish prospective external adaptation |
-| S5 — Identity/policy | **—** | Rules/approvals did not establish an ultimate organizational policy-decision loop |
+| Function / role | Historical Index state | Current owner/closure | Priority / candidate |
+| --- | --- | --- | --- |
+| **S1 · Operations** | A | standard agent performs autonomous tool operations and responds to results | NO_TARGET / DEFER |
+| **S2 · Coordination** | C | swarm dependency/topology constraints are constructor supplied | NO_TARGET / DEFER |
+| **S3 · Current regulation** | C | unified coordinator manages whole-swarm current allocation and health | NO_TARGET / DEFER |
+| **S3* · Independent audit** | — | feasibility evidence gate is proposed in #3191, not an independently enforced shipped C | NO_TARGET / DEFER |
+| **S4 · Prospective environment** | — | Dream Cycle governance and retrospective SONA learning cannot silently confer runtime S4 | NO_TARGET / DEFER |
+| **S5 · Ultimate identity/policy** | — | human/deployer governance and configured permissions retain ultimate policy right | NO_TARGET / DEFER |
 
-**Full vector:** `S1=A · S2=C · S3=C · S3*=— · S4=— · S5=—`. The review is **62 days old** at this observation: recommend a pinned Index re-review. Neither this roadmap nor current code search silently changes the accepted assessment.
+## Operator question and answer
 
-## 2. User outcome and current decision
+S3* independent feasibility challenge before irreversibly executing contradictory/infeasible actions, as originally hypothesized in native issue #3191. Track A native: Unified coordinator/health/consensus already supply worker regulation. LearningBridge reacts to internal trajectories, Dream Cycle is a maintainer research pipeline; neither is proof of new runtime S4. Issue #3191 proposes independent feasibility gate with RVM authority but RuV reproduction is pending.. Track B: No qualified additional S3* constructor for current evidence: maintain #3191 as first-party hypothesis, reproduce constraint contradiction and test existing deterministic preflight/RVM before adding independent feasibility reviewer/receipt.. **NO_GO** because A pinned native reproducible contradiction demonstrates separate evidence input, reviewer decisive hold/correct choice and permitted later-operation feedback unavailable through existing preflight/RVM and native review, with measurable benefit and maintainer-accepted ownership remains unproven and the existing native work is better scoped. This is not a claim the original issues were resolved.
 
-**Proposed P0 (conditional, not approved):** an operator facing an infeasible/contradictory task should receive a **distinct, independent, source-checked feasibility finding before an irreversible action**, with an authorized choice to stop, request clarification, or resume after corrected evidence. An eventual **S3*=C** path would require a developer-composable independent reviewer with complementary first-party access, a real corrective decision and observable return to subsequent operation; a receipt or warning alone cannot establish it.
+## Evidence and next step
 
-**Native demand signal:** [original Ruflo issue #3191](https://github.com/ruvnet/ruflo/issues/3191) proposes `FeasibilityGateReceipt` with `feasible/infeasible/unresolved/stale` and `authority:none`. The issue is **open**; its 2026-11-07 triage comment explicitly requests a **maintainer decision** on ownership/location and promotion thresholds **before implementation**. Ruflo reproduction remains pending. This is an original-native proposal, not a shipped feature or maintainer acceptance.
-
-**Operator decision: NO_GO now.** Do **not** implement a speculative S3* constructor, open a duplicate original Issue, add an execution authority, or assert a new Index grade. Continue only through existing #3191 until Ruflo maintainers confirm a use case, ownership and acceptance criteria. The native baseline is ordinary constraint checking/clarification with existing controls; compare against it before proposing an autonomous reviewer.
-
-## 3. Existing work vs missing proof
-
-- **SHIPPED:** Ruflo has a complementary MCP-composition inspector (code/ADR-320) for suspicious tool descriptions and swarm channel guard; this is **not** general environment/task-feasibility verification or proven independent S3* corrective closure.
-- **OPEN ORIGINAL ISSUE:** [#3191](https://github.com/ruvnet/ruflo/issues/3191) defines an evidence-only feasibility receipt, with RuV reproduction and human design decision pending.
-- **OPEN DISTINCT PR:** [#5002](https://github.com/ruvnet/ruflo/pull/5002) proposes adaptive DAG execution and synthetic scheduling tests; it does not ship the #3191 independent feasibility verifier.
-- **UNVERIFIED:** live independent reviewer installation, full dispatch integration, separate real-world sensing, authoritative correction path, actual feedback, original CLA/DCO and distribution tests.
-
-## 4. Conditional priority and minimum sufficient result
-
-| Priority | Scope | Smallest conditional path |
-| --- | --- | --- |
-| **P0 — S3* research target** | Independent feasibility-based corrective review | Evidence from real task/environment → independent checker with developer-composed decision → `hold/clarify/resume` under existing RVM/user rights → next-operation result/denial receipt |
-| **P1 — prerequisites** | Need, authority and native integration | Maintainer owns decision on where #3191 lives, reproduces impact, identifies supported pre-dispatch hook and non-bypassable correction/feedback; preserve original S2/S3/S5 rights |
-| **P2 — optional** | **NONE** | Do not invent an extra S4/S5 or parent-governed autonomy mode merely to raise a grade |
-
-**Falsification:** if a deterministic preflight plus existing user-approval flow meets the need at lower cost, choose that native path. Reject a scheme where reviewer output is merely advisory, planner can ignore it, or reviewer gets authority to bypass host/RVM ceilings.
-
-## 5. Evidence and acceptance before reconsidering GO
-
-One pinned first-party test must show: (a) an actually contradictory privileged task produces an independent finding; (b) the authorized decision changes or stops a subsequent real operation and returns outcome; (c) removing the developer-composed reviewer removes the independent choice; (d) stale/missing evidence fails safely, while benign tasks and original approval policy remain compatible. A controlled paired baseline should include success, false stops, unnecessary actions, p95 latency, total model/tool cost, and independent reproduction. Existing #3191 benchmark thresholds are **proposals**, not adopted gates.
-
-## 6. Independent choices and cost
-
-1. **Original-native:** retain and clarify existing #3191; only after maintainer approval propose a bounded integration to its own control flow.
-2. **Profile/Skills:** submit separate methodological feedback only if evidence reveals a genuine classification ambiguity; no automatic VSM change.
-3. **Fork experiment:** a legally permitted, explicitly isolated test may compare a deterministic preflight against a separate reviewer without implying upstream acceptance.
-
-**Cost status: NOT_MEASURED.** Reuse equal tasks, models, rights, success criteria, implementation/review/testing and maintenance windows before claiming lower engineering cost.
-
-## 7. Handoff / publication
-
-**Decision:** **NO_GO**. **Research label:** `NEEDS_EVIDENCE`. Responsible evidence owner: **Ruflo maintainer for architecture and permissioned integration; an independent evaluator for reproduction**. Trigger for reconsideration: explicit native scope/decision from the original issue, paired baseline and demonstrated first-party corrective closure. This is **PLAN_ONLY**: no product code, C classification, original PR/Issue, or public fork GitHub Issue is published here. Public discussion needs separate exact current-conversation owner consent.
+Original [v3/@claude-flow/swarm/src/unified-coordinator.ts](https://github.com/ruvnet/ruflo/blob/d9213d356cc232eb2dc958d5cb84149abbbcbd5a/v3/@claude-flow/swarm/src/unified-coordinator.ts); [v3/@claude-flow/memory/src/learning-bridge.ts](https://github.com/ruvnet/ruflo/blob/d9213d356cc232eb2dc958d5cb84149abbbcbd5a/v3/@claude-flow/memory/src/learning-bridge.ts); [docs/dream-cycle/LEDGER.md](https://github.com/ruvnet/ruflo/blob/d9213d356cc232eb2dc958d5cb84149abbbcbd5a/docs/dream-cycle/LEDGER.md); native links [issues / 3191](https://github.com/ruvnet/ruflo/issues/3191); [pull / 5002](https://github.com/ruvnet/ruflo/pull/5002); [pull / 4081](https://github.com/ruvnet/ruflo/pull/4081). P1: Reproduce #3191 benchmark, settle owner-vs-RVM authorization and test existing deterministic check and consensus baseline; no independent result assumed. Earlier Ruflo receipt had NO_GO with NEEDS_EVIDENCE on #3191. The same unverified native need and absent admitted decision rights remain after current-head source-first rerun.. New tests NOT_RUN, cost NOT_MEASURED. No third-party publication, source edit or Index regrade. Owner ACTIVE/ALLOW applies to internal fork meta only. AI-assisted draft.
